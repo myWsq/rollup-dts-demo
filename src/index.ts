@@ -1,5 +1,2 @@
-import "./style.scss";
-
-export function main() {
-  return "Hello world";
-}
+import "./global.scss";
+export * from "./components/Button";

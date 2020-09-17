@@ -8,10 +8,18 @@
     "build:external": "rollup -c --environment BUILD:external"
   },
   "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-typescript": "^7.10.4",
+    "@rollup/plugin-babel": "^5.2.1",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "@vue/babel-plugin-jsx": "^1.0.0-rc.3",
     "rollup": "^2.27.0",
     "rollup-plugin-dts": "^1.4.13",
     "rollup-plugin-postcss": "^3.1.8",
     "sass": "^1.26.10",
-    "typescript": "^4.0.2"
-  }
+    "typescript": "^4.0.2",
+    "vue": "^3.0.0-rc.12"
+  },
+  "dependencies": {}
 }

@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "ESNext",
+    "declaration": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "lib": ["es2020", "DOM"],
+    "allowSyntheticDefaultImports": true,
+    "jsx": "preserve",
+    "skipLibCheck": true
+  },
+  "exclude": ["node_modules"]
+}
